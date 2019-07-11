@@ -1,0 +1,30 @@
+// @todo remove the need to implicitly import variables into each and every component
+//       Until then, we need variables defined here
+
+$wideminwidth:767px !default;
+$confortableminwidth:1020px !default;
+
+$logo: '/images/logo.png' !default;
+
+// Paths
+$fonts_dir : '~corteza-webapp-admin/src/themes/corteza-base/fonts/' !default;
+
+// Typography
+$regular: 'nunito_sansregular' !default;
+$bold: 'nunito_sansbold' !default;
+$semibold: 'nunito_sanssemibold' !default;
+$font-size-base: 0.85rem !default;
+
+$font-family-base:      $regular !default;
+$headings-font-family:  $semibold !default;
+
+// Color system
+$white:         #fff !default;
+$black:         #000 !default;
+$primary:       #1397CB !default;
+$secondary:     #90A3B1 !default;
+$success:       #2FBC95 !default;
+$warning:       #FFCC32 !default;
+$danger:        #E85568 !default;
+$light:         #F3F3F5 !default;
+$dark:          #1e2224 !default;
