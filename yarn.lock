@@ -1453,9 +1453,9 @@ ajv@^5.2.3, ajv@^5.3.0:
     json-schema-traverse "^0.3.0"
 
 ajv@^6.1.0:
-  version "6.10.1"
-  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.10.1.tgz#ebf8d3af22552df9dd049bfbe50cc2390e823593"
-  integrity sha512-w1YQaVGNC6t2UCPjEawK/vo/dG8OOrVtUmhBT1uJJYxbl5kU2Tj3v6LGqBcsysN1yhuCStJCCA3GqdvKY8sqXQ==
+  version "6.10.2"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.10.2.tgz#d3cea04d6b017b2894ad69040fec8b623eb4bd52"
+  integrity sha512-TXtUUEYHuaTEbLZWIKUr5pmBuhDLy+8KYtPYdcV8qC+pOZL+NKqYwvWSRrVXHn+ZmRRAu8vJTAznH7Oag6RVRw==
   dependencies:
     fast-deep-equal "^2.0.1"
     fast-json-stable-stringify "^2.0.0"
@@ -2839,7 +2839,7 @@ core-util-is@1.0.2, core-util-is@~1.0.0:
 
 corteza-webapp-admin@cortezaproject/corteza-webapp-admin.git#master:
   version "2019.6.1"
-  resolved "https://codeload.github.com/cortezaproject/corteza-webapp-admin/tar.gz/74bdc6924a18eb9d9977b35db1ea9ab5afcb3f8b"
+  resolved "https://codeload.github.com/cortezaproject/corteza-webapp-admin/tar.gz/045cbda07be4855d1b71045207cd323e637c94c3"
   dependencies:
     "@panter/vue-i18next" "^0.15.0"
     axios "^0.18.0"
@@ -2860,8 +2860,8 @@ corteza-webapp-admin@cortezaproject/corteza-webapp-admin.git#master:
     vuex "3.1.1"
 
 corteza-webapp-common@cortezaproject/corteza-webapp-common.git#master:
-  version "2019.3.14"
-  resolved "https://codeload.github.com/cortezaproject/corteza-webapp-common/tar.gz/f49786078204e40204b735a574117af8c3142641"
+  version "2019.3.16"
+  resolved "https://codeload.github.com/cortezaproject/corteza-webapp-common/tar.gz/5ecaa70769c315d66ac67ef64557fb860cd15fa5"
   dependencies:
     axios "^0.18.1"
     mime-types "^2.1.24"
