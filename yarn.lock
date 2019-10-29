@@ -2872,7 +2872,7 @@ core-util-is@1.0.2, core-util-is@~1.0.0:
 
 corteza-webapp-admin@cortezaproject/corteza-webapp-admin.git#master:
   version "2019.9.0-rc.2"
-  resolved "https://codeload.github.com/cortezaproject/corteza-webapp-admin/tar.gz/c5a948c7e12feb7aea9ab4d86e6a9b835d5d75ab"
+  resolved "https://codeload.github.com/cortezaproject/corteza-webapp-admin/tar.gz/7989782e26f206a6c5b2d99b2b29588b5c5260a0"
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^1.2.21"
     "@fortawesome/free-solid-svg-icons" "^5.10.1"
@@ -2900,8 +2900,8 @@ corteza-webapp-admin@cortezaproject/corteza-webapp-admin.git#master:
     vuex "3.1.1"
 
 corteza-webapp-common@cortezaproject/corteza-webapp-common.git#master:
-  version "2019.9.0-rc.41"
-  resolved "https://codeload.github.com/cortezaproject/corteza-webapp-common/tar.gz/26d67eaac7554e8093380000e3c4e20b3130a8cf"
+  version "2019.9.0-rc.42"
+  resolved "https://codeload.github.com/cortezaproject/corteza-webapp-common/tar.gz/c2cb710f40cf1ecaea4b6a2bb53885b1025c1ffd"
   dependencies:
     diff "4.0.1"
     mime-types "2.1.24"
