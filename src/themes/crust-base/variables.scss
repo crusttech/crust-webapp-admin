@@ -28,3 +28,14 @@ $warning:       #FFCC32 !default;
 $danger:        #E85568 !default;
 $light:         #F3F3F5 !default;
 $dark:          #1e2224 !default;
+
+$sidebar-width: 200px !default;
+
+// Options
+$enable-rounded:   false !default;
+
+// Forms
+$input-font-size:              $font-size-base !default;
+$input-btn-focus-width:        0 !default;
+$input-focus-box-shadow:       none !default;
+$input-focus-border-color:     $primary !default;
