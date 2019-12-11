@@ -2,7 +2,7 @@
   "name": "crust-webapp-admin",
   "description": "Admin WebApp",
   "private": true,
-  "version": "2019.6.1",
+  "version": "2019.12.0",
   "license": "Apache-2.0",
   "author": "Denis Arh <denis.arh@gmail.com>",
   "scripts": {
@@ -16,24 +16,7 @@
     "pre-commit": "yarn lint"
   },
   "dependencies": {
-    "@panter/vue-i18next": "0.15.1",
-    "axios": "^0.18.0",
-    "bootstrap-vue": "1.5.1",
-    "corteza-webapp-admin": "cortezaproject/corteza-webapp-admin.git#master",
-    "corteza-webapp-common": "cortezaproject/corteza-webapp-common.git#master",
-    "i18next": "^15.0.7",
-    "i18next-browser-languagedetector": "3.0.1",
-    "i18next-xhr-backend": "^2.0.1",
-    "resolve-url-loader": "^3.1.0",
-    "sinon": "7.3.2",
-    "stylelint": "^9.1“0.1",
-    "stylelint-config-standard": "18.3.0",
-    "stylelint-scss": "3.9.1",
-    "stylelint-webpack-plugin": "0.10.5",
-    "vue": "2.6.10",
-    "vue-router": "3.0.7",
-    "vuetable-2": "1.7.5",
-    "vuex": "3.1.1"
+    "corteza-webapp-admin": "cortezaproject/corteza-webapp-admin.git#2019.12.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "3.9.2",
