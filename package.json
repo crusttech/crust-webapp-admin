@@ -2,7 +2,7 @@
   "name": "crust-webapp-admin",
   "description": "Admin WebApp",
   "private": true,
-  "version": "2019.12.0",
+  "version": "2020.06.0",
   "license": "Apache-2.0",
   "author": "Denis Arh <denis.arh@gmail.com>",
   "scripts": {
@@ -10,25 +10,25 @@
     "build": "vue-cli-service build --mode production",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
-    "cdeps": "yarn upgrade corteza-webapp-common corteza-webapp-admin"
+    "cdeps": "yarn upgrade corteza-webapp-admin"
   },
   "gitHooks": {
     "pre-commit": "yarn lint"
   },
   "dependencies": {
-    "corteza-webapp-admin": "cortezaproject/corteza-webapp-admin.git#2019.12.0"
+    "corteza-webapp-admin": "cortezaproject/corteza-webapp-admin.git#2020.06.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "3.9.2",
-    "@vue/cli-plugin-eslint": "3.9.2",
-    "@vue/cli-plugin-unit-mocha": "3.9.0",
-    "@vue/cli-service": "3.9.2",
-    "@vue/eslint-config-standard": "^3.0.5",
-    "@vue/test-utils": "^1.0.0-beta.29",
+    "@vue/cli-plugin-babel": "^3.10.0",
+    "@vue/cli-plugin-eslint": "^3.10.0",
+    "@vue/cli-plugin-unit-mocha": "^3.10.0",
+    "@vue/cli-service": "^3.10.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "@vue/test-utils": "^1.0.0-beta.25",
     "chai": "^4.1.2",
-    "node-sass": "4.12.0",
+    "node-sass": "4.13.1",
     "sass-loader": "^7.1.0",
-    "vue-template-compiler": "^2.5.17"
+    "vue-template-compiler": "^2.6.11"
   },
   "stylelint": {
     "plugins": [

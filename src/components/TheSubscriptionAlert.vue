@@ -34,7 +34,7 @@ export default {
   },
 
   methods: {
-    decorate (txt) {
+    decorate (txt = '') {
       // Generate subject with domain name in case sender
       // forgets to include it in the message body
       const subject = `Crust subscription for ${this.discoverDomain()}`
